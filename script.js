@@ -90,7 +90,6 @@ const createGalleryMarkup = (items) =>
 
 listEl.innerHTML = createGalleryMarkup(galleryItems);
 
-// const lightboxImage = document.querySelector(".lightbox__image");
 
 listEl.addEventListener("click", (event) => {
   event.preventDefault();
